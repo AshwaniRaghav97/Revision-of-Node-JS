@@ -12,6 +12,12 @@ app.get('/', (req, res) => {
   res.render('index');
 });
 
+app.get('/:username/:id', (req, res) => {
+  res.send(`Username: ${req.params.username}, ID: ${req.params.id}`);
+});
+
+
+
 app.listen(3000, () => {
   console.log('Server is running on port 3000');
 });

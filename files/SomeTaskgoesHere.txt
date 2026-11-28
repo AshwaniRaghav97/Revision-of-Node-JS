@@ -1,0 +1,1 @@
+This is a beautiful card designed using Tailwind CSS. It has a clean layout, soft borders, and a modern dark theme.
